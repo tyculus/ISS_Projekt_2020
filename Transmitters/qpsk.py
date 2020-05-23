@@ -1,3 +1,6 @@
+# This transmitter uses QPSK modulation to transmit a byte, an array of bytes or an array of bits
+# over a channel with 'added white gaussian noise' (AWGN). All arrays must use np.uint8 integers.
+
 # import logging
 import numpy as np
 from komm import PSKModulation, AWGNChannel, int2binlist, binlist2int

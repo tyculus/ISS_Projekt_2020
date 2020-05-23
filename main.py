@@ -1,7 +1,7 @@
 # import logging
 import os
-from PIL import Image
 import numpy as np
+from PIL import Image
 from Transmitters.qpsk import QPSKTransmitter
 
 # logging.basicConfig(level=logging.DEBUG)
