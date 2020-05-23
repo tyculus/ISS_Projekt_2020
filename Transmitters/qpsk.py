@@ -18,7 +18,7 @@ class QPSKTransmitter:
 		self.qpsk = PSKModulation(4, phase_offset=np.pi / 4)
 
 	def set_snr(self, snr: float = np.inf) -> None:
-		self.channel = AWGNChannel(snr=snr)
+		self.channel.snr = snr
 
 	# TRANSMISSION FUNCTIONS
 
