@@ -21,7 +21,6 @@ for the programm or ```python -m unittest``` to run the tests.
 Leave the virtual environment with ```deactivate```.
 
 ## Installation
-The komm library depends on numpy upon installation and must therefore be installed afterwards.
 ```
 sudo apt install python3.6 python3-venv
 git clone git@github.com:tyculus/ISS_Projekt_2020.git
@@ -29,5 +28,4 @@ cd ISS_Projekt_2020
 python3.6 -m venv venv
 . ./venv/bin/activate
 pip install -r requirements.txt
-pip install komm
 ```
